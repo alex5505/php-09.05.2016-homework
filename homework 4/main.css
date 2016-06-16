@@ -1,0 +1,54 @@
+body {
+	background-image: url(https://www.google.bg/search?hl=bg&site=imghp&tbm=isch&source=hp&biw=1920&bih=945&q=%D0%B1%D0%B0%D1%86%D0%BA%D0%B3%D1%80%D0%BE%D1%83%D0%BD%D0%B4+%D0%BF%D0%B8%D1%86%D1%82%D1%83%D1%80%D0%B5&oq=%D0%B1%D0%B0%D1%86%D0%BA%D0%B3%D1%80%D0%BE%D1%83%D0%BD%D0%B4+%D0%BF%D0%B8%D1%86%D1%82%D1%83%D1%80%D0%B5&gs_l=img.3...2792.10038.0.10395.28.4.7.17.0.0.91.307.4.4.0....0...1ac.1.64.img..0.8.268...0j0i30.c4KnWbbJj74#imgrc=CDXEq4c2-nCw2M%3A);
+}
+
+main {
+	margin-left: 30%;
+}
+
+h4,h2 {
+	text-align: center;
+	margin: 2px 0px 5px 0px;
+}
+
+h2.title {
+	margin: auto;
+	position: center;
+	width: 30%;
+	/*shadow*/
+	-webkit-box-shadow: 3px 2px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+	/*radius*/
+	border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	border: 0px solid #000000;
+}
+
+.excercise {
+	text-align: center;
+	padding: 11px;
+	float: left;
+	margin: 20px;
+	/*shadow*/
+	-webkit-box-shadow: 2px 1px 2px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 1px 2px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 1px 2px 0px rgba(0,0,0,0.75);
+}
+
+.wrapper {
+	min-height: 90%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+	height: 90%;
+}
+.footer {
+	height: 90px; /* .push must be the same height as .footer */
+	clear: left;
+}
+
+/*footer {
+	clear: left;
+	height: 155px;
+	margin-bottom: 0px;
+}*/
